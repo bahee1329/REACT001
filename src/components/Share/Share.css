@@ -1,0 +1,72 @@
+.share{
+    margin: 0;
+    width: 100%;
+    height: 170px;
+}
+
+.sharecon{
+    margin: 20px 20px;
+    -webkit-box-shadow: 9px 6px 21px 0px #000000; 
+     box-shadow: 9px 6px 21px 0px #000000;
+     height: 170px;
+}
+
+.upper{
+    display: flex;
+    padding: 10px;
+}
+
+.upper input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.upper img{
+    width:40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+
+
+hr{
+    margin: 10px;
+}
+
+.tag{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+
+}
+
+.tagcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.icon{
+     font-size: 20px;
+     margin-right: 0;
+}
+
+
+
+.btn1{
+    margin-left: 70px;
+    background-color: rgb(14, 164, 14);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+

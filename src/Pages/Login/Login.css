@@ -1,0 +1,104 @@
+.login{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+}
+
+.logincon{
+    width:70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.leftcon{
+    flex: 1;
+     display: flex;
+     flex-direction: column;
+}
+
+.leftcon h2{
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+}
+
+.leftcon p{
+    font-size: 24px;
+}
+
+.rightcon{
+    flex: 1;
+}
+
+.rightcon form{
+    flex: 1;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    background-color: white;
+}
+
+.rightcon form span{
+    padding:30px 10px ;
+    text-align: center;
+    font-size: 22px;
+}
+
+.rightcon input{
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    
+}
+
+.btnl{
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: #1775ee;
+    color: white;
+    font-weight: 800;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+
+.btny{
+    width:50%;
+    padding: 15px 15px;
+    margin:10px auto ;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #0cbe39;
+    color: white;
+}
+
+.btny button{
+    font-weight: 800;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: white;
+    background-color: #0cbe39 ;
+    border: none;
+}
+
+.btnl button{
+    font-weight: 800;
+    padding: 5px 160px;
+    font-size: 30px;
+    color: white;
+    background-color:#1775ee ;
+    border: none;
+}
+
